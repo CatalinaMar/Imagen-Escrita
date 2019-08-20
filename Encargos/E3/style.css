@@ -1,12 +1,77 @@
-@import url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans:100,100i,300,300i,400,400i,500,500i,700,700i,800,800i,900,900i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,500,500i,700,700i,800,800i,900,900i&display=swap');
 
     body {
-      font-family: Helvetica;
+      background: #F2EFE6;
+    font-family: 'Alegreya Sans', sans-serif;
       margin-top: 30px;
       text-align: center;
       padding: 0;
     }
-    canvas{
-      border: 1px solid black;
-      margin: 3em;
-    }
+
+h1{
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    color: #17111D;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Alegreya', serif;
+    font-size: 30px;
+    color: #3D3D4D;
+    font-weight: 500;
+    margin-top: 0px;
+    
+}
+
+p {
+    font-size: 14px;
+    color: #626373;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    
+}
+
+#instrucciones{
+    margin-bottom: 40px;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+a{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #626373;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+a:hover{
+    color: #F29C55;
+}
+
+#patas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+#ime{
+     width: 50%;   
+}
+
+#indice{
+    width: 50%;
+    
+}

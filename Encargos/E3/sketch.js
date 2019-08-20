@@ -5,7 +5,7 @@ const paths = [];
 let currentPath = [];
 
 function setup() {
-    createCanvas(window.innerWidth, window.innerHeight);
+    createCanvas(500, 500);
     background(255);
 }
 
@@ -42,3 +42,7 @@ clear.addEventListener('click', () => {
     paths.splice(0);
     background(255);
 });
+
+function windowResized() {
+  resizeCanvas(500, windowHeight);
+}
