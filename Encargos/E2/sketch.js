@@ -15,7 +15,7 @@ createCanvas(windowWidth, 550)
 }
 
 function draw() {
-translate(140, 0);
+translate(200, 0);
   //fondo
   background('#F4E6BD');
   // Cielo Noche
