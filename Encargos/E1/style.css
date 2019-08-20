@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,600,600i,700,700i&display=swap');
+
+
+body{
+	background-color: black;
+	margin-right: 0px;
+	margin-left: 0px;	
+}
+
+/* Posicion intro */
+
+.intro {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+    margin-top: 85px;
+}
+
+/* Valores intro*/
+h1{
+    font-size: 66px;
+    text-align: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-style:italic;
+    font-size: 16px;
+    text-align: right;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+/* Posicion conte*/
+
+.contenidotext{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* Rae */
+#rae{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#tituno{
+    width: 40%;
+}
+
+#contuno{
+    width: 50%;
+}
+
+/* Definicion */
+
+#definicion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;
+
+}
+
+#titdos{
+    width: 40%;
+}
+
+#contdos{
+    width: 50%;
+}
+
+/* Antecedentes */
+
+#antecedentes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+#tittres{
+  width: 40%;
+}
+
+#contres{
+  width: 50%;    
+}
+
+#one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+
+
+#titone{
+  width: 40%;    
+}
+
+#contone{
+  width: 50%;     
+}
+
+
+#two{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;    
+}
+
+#titwo{
+  width: 40%; 
+}
+
+#contwo{
+     width: 50%;    
+}
+
+
+
+#anthree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 20%;
+    margin-right:20%;      
+}
+
+#tithree{
+   width: 40%;     
+}
+
+#conthree{
+     width: 50%;      
+}
+
+#conclu{
+    margin-left: 20%;
+    margin-right:20%;    
+}
+/* Valores conte*/
+
+#raedef p{
+    font-size: 15px; 
+    font-style:italic;
+    font-weight: 400;
+    text-align: left;  
+}
+
+.contenidotext p{
+    font-size: 14px;  
+    font-weight: 300;
+    text-align: left;
+
+}
+
+.contenidotext ul{
+    font-size: 14px;  
+    font-weight: 300;
+    text-align: left;
+
+}
+
+h3{
+    font-size: 18px;  
+    font-weight: 600;
+    text-align: right;
+}
+
+h4{
+    font-size: 16px;  
+    font-weight: 400;
+    text-align: right;
+}
+
+h5{
+    font-size: 35px;  
+    font-weight: 600;
+    text-align: center; 
+}
+
+h6{
+    text-align: center; 
+    font-size: 16px;  
+    font-weight: 400;
+
+}
+/* FIN Valores conte*/
