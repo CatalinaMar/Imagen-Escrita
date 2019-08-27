@@ -1,48 +1,53 @@
-const colorInput = document.getElementById('color');
-const weight = document.getElementById('weight');
-const clear = document.getElementById('clear');
-const paths = [];
-let currentPath = [];
+let bg = 255;
 
 function setup() {
-    createCanvas(500, 500);
-    background(255);
+  createCanvas(500, 500);
 }
+
 
 function draw() {
-    noFill();
+  background(bg);
     
-    if(mouseIsPressed){
-        const point = {
-            x: mouseX,
-            y: mouseY,
-            color: colorInput.value,
-            weight: weight.value
-        };
-        currentPath.push(point);
-    }
+  if (mouseIsPressed) {
+  line(pmouseX, pmouseY, mouseX, mouseY);
+  }
     
-    paths.forEach(path => {
-        beginShape();
-        path.forEach(point => {
-            stroke(point.color);
-            strokeWeight(point.weight);
-            vertex(point.x, point.y);
-        });
-        endShape();
-    });
+
 }
 
-function mousePressed() {
-    currentPath = [];
-    paths.push(currentPath);
-}
 
-clear.addEventListener('click', () => {
-    paths.splice(0);
-    background(255);
-});
-
-function windowResized() {
-  resizeCanvas(500, windowHeight);
+function keyTyped() {
+  if (key === 'h') {
+    bg = loadImage('ima/imah.jpg');
+  } else if (key === 'a') {
+    bg = loadImage('ima/imaa.jpg');
+  } else if (key === 'm') {
+    bg = loadImage('ima/imam.jpg');
+  } else if (key === 'b') {
+    bg = loadImage('ima/imab.jpg');
+  } else if (key === 'u') {
+    bg = loadImage('ima/imau.jpg');
+  } else if (key === 'r') {
+    bg = loadImage('ima/imar.jpg');
+  } else if (key === 'g') {
+    bg = loadImage('ima/imag.jpg');
+  } else if (key === 'e') {
+    bg = loadImage('ima/imae.jpg');
+  } else if (key === 'f') {
+    bg = loadImage('ima/imaf.jpg');
+  } else if (key === 'o') {
+    bg = loadImage('ima/imao.jpg');
+  } else if (key === 'n') {
+    bg = loadImage('ima/iman.jpg');
+  } else if (key === 't') {
+    bg = loadImage('ima/imat.jpg');
+  } else if (key === 's') {
+    bg = loadImage('ima/imas.jpg');
+  } else if (key === 'i') {
+    bg = loadImage('ima/imai.jpg');
+  } else if (key === 'v') {
+    bg = loadImage('ima/imav.jpg');
+  }
+  // uncomment to prevent any default behavior
+  // return false;
 }
