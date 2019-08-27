@@ -2,16 +2,17 @@ let bg = 255;
 
 function setup() {
   createCanvas(500, 500);
+
+
 }
 
 
 function draw() {
-  background(bg);
-    
-  if (mouseIsPressed) {
-  line(pmouseX, pmouseY, mouseX, mouseY);
+ background(bg);
+  stroke('#17111D');
+  if (mouseIsPressed === true) {
+    line(mouseX, mouseY, pmouseX, pmouseY);
   }
-    
 
 }
 
