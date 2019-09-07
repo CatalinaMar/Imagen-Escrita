@@ -157,6 +157,43 @@ a:hover{
     width: 50%;
 }
 
+#tres{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#tareatres{
+    width: 20%;
+}
+
+#contetres{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#cuatro{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+#tareacuatro{
+    width: 20%;
+}
+
+#contecuatro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+
 #patas{
     display: flex;
     flex-direction: row;
