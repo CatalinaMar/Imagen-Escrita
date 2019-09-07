@@ -31,17 +31,19 @@ function draw() {
   }
 
   textFont('Cormorant Garamond');
-  textSize(14);
+  textSize(16);
   noStroke();
   fill(0);
-  text('Hola', 120, 120);
-  text('Como', 220, 220);
-  text('Estas', 320, 320);
+  text('Este camino', 120, 120);
+  text('nadie ya lo recorre,', 220, 220);
+  text('salvo el crepúsculo', 320, 320);
     
-  textSize(16);
+  textSize(24);
   fill(255);
   textAlign(LEFT);
   text('Haikú', 900, 500);
+  textSize(16);
+  text('Matsuo Basho - Octavio Paz', 900, 520);
     
 }
 
