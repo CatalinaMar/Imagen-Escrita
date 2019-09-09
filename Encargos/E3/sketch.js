@@ -1,19 +1,32 @@
-let bg = 255;
+let bg = 255; 
+let extraCanvas;
+
 
 function setup() {
   createCanvas(500, 500);
+  extraCanvas = createGraphics(500, 500);
+  extraCanvas.clear();
 
 
 }
 
 
 function draw() {
- background(bg);
+  background(bg);
   stroke('#17111D');
-  if (mouseIsPressed === true) {
-    line(mouseX, mouseY, pmouseX, pmouseY);
-  }
-
+    
+if (mouseIsPressed === true) {
+    let val = 20.0;
+    for (let a = 0; a < 100; a += 75) {
+      let xoff = cos(radians(a)) * val;
+      let yoff = sin(radians(a)) * val;
+      extraCanvas.noStroke();
+      extraCanvas.fill(0,0,0,20);
+      extraCanvas.ellipse(mouseX + yoff, mouseY + xoff, val, val);
+    } 
+}
+    
+    image(extraCanvas, 0, 0); 
 }
 
 
@@ -49,6 +62,13 @@ function keyTyped() {
   } else if (key === 'v') {
     bg = loadImage('ima/imav.jpg');
   }
-  // uncomment to prevent any default behavior
-  // return false;
+    
+  if (key === ' ') {
+      extraCanvas.fill(255);
+  }
 }
+
+
+
+
+
