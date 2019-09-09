@@ -1,3 +1,5 @@
+//Inspirado en los trabajos de antifuture, Richard Bourne y David Crooks
+
 //Declaraciones
 
 let pathPoints = []
