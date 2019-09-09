@@ -63,9 +63,6 @@ function keyTyped() {
     bg = loadImage('ima/imav.jpg');
   }
     
-  if (key === ' ') {
-      extraCanvas.fill(255);
-  }
 }
 
 
